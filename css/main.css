@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@700;800&family=Bebas+Neue&family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: azure;
+}
+
+.header {
+  background-color: rgb(199, 130, 199);
+  font-family: "Bebas Neue", sans-serif;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.header--links {
+  width: 10rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.header--links--item {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+}
+
+.welcome {
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 2rem);
+}
+
+.welcome-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4em;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  padding-top: 7rem;
+}
+
+.welcome-title div {
+  text-align: center;
+}
+
+.welcome-title > div > h1 {
+  height: 9rem;
+}
+
+.welcome-title > div > p {
+  font-size: 0.4em;
+  font-family: "Pacifico", cursive;
+  color: rgb(163, 163, 163);
+}
+
+.welcome--links {
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.welcome--links div {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome--links > div > a {
+  width: 6rem;
+  height: 2.5rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
